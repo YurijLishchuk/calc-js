@@ -11,3 +11,8 @@ document.querySelector('.calc .eq')
     .addEventListener('click', function(){
         display.value = eval(display.value);        
     })
+    
+document.querySelector('.calc .ac')
+    .addEventListener('click', function () {
+        display.value = ' ';
+    })
